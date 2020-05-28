@@ -10,3 +10,5 @@ import pandas as pd
 
 path = r'C:\Users\Leclair Romain\Desktop\ds_salary_project\chromedriver'
 df = gs.get_jobs('data scientist', 100, False, path, 15)
+
+df.to_csv('glassdor_jobs.csv',index=False)
