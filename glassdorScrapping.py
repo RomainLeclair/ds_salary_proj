@@ -28,8 +28,8 @@ def get_jobs(keyword, num_jobs, verbose, path, slp_time):
     #url= 'https://www.glassdoor.fr/Emploi/emplois.htm?sc.generalKeyword="' + keyword + '"&jobType=all&fromAge=-1&minSalary=0&includeNoSalaryJobs=true&radius=100&industryId=-1&sgocId=-1&seniorityType=all&companyId=-1&employerSizes=0&applicationType=0&remoteWorkType=0'
     #url = 'https://www.glassdoor.fr/Job/jobs.htm?sc.keyword="' + keyword + '"&locT=C&locId=1147401&locKeyword=San%20Francisco,%20CA&jobType=all&fromAge=-1&minSalary=0&includeNoSalaryJobs=true&radius=100&cityId=-1&minRating=0.0&industryId=-1&sgocId=-1&seniorityType=all&companyId=-1&employerSizes=0&applicationType=0&remoteWorkType=0'
     
-    url = 'https://www.glassdoor.fr/Emploi/emplois.htm?sc.generalKeyword="' + keyword + '"&sc.locationSeoString=new+york&locId=1132348&locT=C' # NEWYORK
-    #url = 'https://www.glassdoor.fr/Emploi/emplois.htm?sc.generalKeyword="' + keyword + '"&sc.locationSeoString=chicago&locId=1128808&locT=C' #CHICAGO
+    #url = 'https://www.glassdoor.fr/Emploi/emplois.htm?sc.generalKeyword="' + keyword + '"&sc.locationSeoString=new+york&locId=1132348&locT=C' # NEWYORK
+    url = 'https://www.glassdoor.fr/Emploi/emplois.htm?sc.generalKeyword="' + keyword + '"&sc.locationSeoString=chicago&locId=1128808&locT=C' #CHICAGO
     driver.get(url)
     jobs = []
 
@@ -48,7 +48,7 @@ def get_jobs(keyword, num_jobs, verbose, path, slp_time):
         time.sleep(.1)
 
         try:
-            driver.find_element_by_class_name("ModalStyle__xBtn___29PT9").click()  #clicking to the X.
+            driver.find_element_by_css_selector('[alt="Close"]').click()  #clicking to the X.
             print('x out worked')
         except NoSuchElementException:
             print('x out failed')
