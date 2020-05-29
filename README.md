@@ -5,6 +5,8 @@
 * Searching best Model to estimare average Salary
 * Buil a client API with Flask
 
+`lol
+
 
 ## Resources 
 https://github.com/arapfaik/scraping-glassdoor-selenium/blob/master/glassdoor%20scraping.ipynb
