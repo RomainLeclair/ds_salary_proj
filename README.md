@@ -8,9 +8,13 @@
 
 # Code ans Ressource Used
 **Python Version**: 3.7
+
 **Packages**: pandas, numpy, sklearn, matplotlib, seabonr, selenium, flask, json, pickle
+
 **For Web Framework Requierments**: pip install -r requierements.txt
+
 **Scrapper Github**: https://github.com/arapfaik/scraping-glassdoor-selenium/blob/master/glassdoor%20scraping.ipynb
+
 **Flask Porduction**: https://flask.palletsprojects.com/en/1.1.x/
 
 
