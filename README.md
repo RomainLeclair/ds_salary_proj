@@ -19,6 +19,25 @@
 
 
 
+# Web Scraping
+
+We use glassdor for scrap each description of job. With each job, we got the following:
+* Job title
+* Salary Estimate
+* Job Description
+* Rating
+* Company
+* Location
+* Company headquarters
+* Company size
+* Company Founded Date
+* Type of Ownership
+* Industry 
+* Sector
+* Revenue
+* Competitors
+
+
 
 
 
