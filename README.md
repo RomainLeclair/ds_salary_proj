@@ -64,5 +64,18 @@ After we scraping all the data i want . I need to clean this database.  Clean so
  
  ![alt text](https://github.com/RomainLeclair/ds_salary_project/blob/master/heatmap.png)
 
+ ![alt text](https://github.com/RomainLeclair/ds_salary_project/blob/master/text.png)
+ 
+ 
+ # Model Building
+ 
+ After all this steps. First i transformed the categorical variables into dummy variables. I also split the dataset in a Train and Test Set.
+ 
+ I tried three different models and evaluated them using Mean Absolute Error. I chosse MAE beacause it's a metric relatively easy to interpred and outliers aren't particulary bad in for this type of model.
+ 
+ I tried three different models:
+  * **Multiple Linear Rigression**: Baseline for all model of MachineLearning
+  * **Lasso Regressions**: Because of the sparse data from the many categorical variables, I thought a normalized regression like lasso would be effective
+  * **Random Forest**: Again, with the sparsity associated with the data. I thought this ensemble model would be a good fit.
 
 
