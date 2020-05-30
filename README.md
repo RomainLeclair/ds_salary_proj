@@ -79,3 +79,13 @@ After we scraping all the data i want . I need to clean this database.  Clean so
   * **Random Forest**: Again, with the sparsity associated with the data. I thought this ensemble model would be a good fit.
 
 
+# Model Performance
+
+ * **Random Forest**: MAE = 11.15
+ * **Linear Regression**: MAE = 18.85
+ * **Lasso Regression**: MAE = 17.
+ 
+ # Production
+ 
+ In the finally step, i built a flask API endpoint that was hosted on a local websever by following along with the TDS tutorial in the reference section above.
+ The API endpoint takes in a request with a list of values from a job listing and returns an estimated salary.
