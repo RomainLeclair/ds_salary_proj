@@ -60,7 +60,9 @@ After we scraping all the data i want . I need to clean this database.  Clean so
  
  # EDA
  
- I try to check the distributions of the data and the value counts for each categorical variable. Below are a few higlights from the pivot tables. Wich from my point of view are the most interesting. 
+ I try to check the distributions of the data and the value counts for each categorical variable. Below are a few higlights from the pivot tables. Wich from my point of view are the most interesting.
+ 
+ ![alt text](https://github.com/RomainLeclair/ds_salary_project/blob/master/heatmap.png)
 
 
 
