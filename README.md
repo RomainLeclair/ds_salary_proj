@@ -38,6 +38,23 @@ We use glassdor for scrap each description of job. With each job, we got the fol
 * Competitors
 
 
+# Data Cleaning
+
+After we scraping all the data i want . I need to clean this database.  Clean some features or delete features whose information dit not seem to me or not very important. I make this different steps:
+ * Parsed numeric data out of salary
+ * Made columns for employer provided salary and hourly wages
+ * Removed rows without salary
+ * Parsed rating out of company text
+ * Made a new column for company state
+ * Added a column for if the job was at the company's headquarters
+ * Transformed founded date into age of company
+ * Made columns for if different skills were listed in the job descriprion:
+      * Python
+      * R
+      * Excel
+      * AWS
+      * Spark
+ * Column for simplified job title and Seniority
 
 
 
