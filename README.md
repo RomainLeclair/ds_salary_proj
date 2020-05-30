@@ -55,6 +55,12 @@ After we scraping all the data i want . I need to clean this database.  Clean so
       * AWS
       * Spark
  * Column for simplified job title and Seniority
+ * Colum for description length
+ 
+ 
+ # EDA
+ 
+ I try to check the distributions of the data and the value counts for each categorical variable. Below are a few higlights from the pivot tables. Wich from my point of view are the most interesting. 
 
 
 
