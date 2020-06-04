@@ -3,7 +3,7 @@
 * Scraped over 1000 job description in USA from glassdor using python and selenium
 * Data Cleaning and Engineered features
 * Searching best Model to estimare average Salary
-* Buil a client API with Flask
+* Built a client API with Flask
 
 
 # Code ans Ressource Used
