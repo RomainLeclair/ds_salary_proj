@@ -21,8 +21,8 @@
 
 
 
-# Web Scraping
 
+# Web Scraping
 We use glassdor for scrap each description of job. With each job, we got the following:
 * Job title
 * Salary Estimate
