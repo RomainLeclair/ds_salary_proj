@@ -9,7 +9,7 @@
 # Code ans Ressource Used
 **Python Version**: 3.7
 
-**Tutorial of **: https://github.com/PlayingNumbers/ds_salary_proj
+**Tutorial of**: https://github.com/PlayingNumbers/ds_salary_proj
 
 **Packages**: pandas, numpy, sklearn, matplotlib, seabonr, selenium, flask, json, pickle
 
